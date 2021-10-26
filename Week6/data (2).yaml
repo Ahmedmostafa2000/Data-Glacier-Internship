@@ -1,0 +1,25 @@
+file_type: csv
+dataset_name: file
+file_name: df
+table_name: NycTlcGreen
+inbound_delimiter: ','
+skip_leading_rows: 1
+columns:
+    - vendorID
+    - lpepPickupDatetime
+    - lpepDropoffDatetime
+    - passengerCount
+    - tripDistance
+    - puLocationId
+    - doLocationId
+    - rateCodeID
+    - storeAndFwdFlag
+    - paymentType
+    - fareAmount
+    - extra
+    - mtaTax
+    - improvementSurcharge
+    - tipAmount
+    - tollsAmount
+    - totalAmount
+    - tripType
